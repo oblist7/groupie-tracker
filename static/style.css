@@ -1,0 +1,154 @@
+/* Dark Mode */
+.dark-theme {
+    background-color: #333 !important;
+    color: #fff !important;
+}
+.dark-theme .bg-white {
+    background-color: #444 !important;
+    color: #fff !important;
+}
+.dark-theme .bg-light {
+    background-color: #222 !important;
+    color: #fff !important;
+}
+.dark-theme .form-control {
+    background-color: #555 !important;
+    color: #fff !important;
+}
+.dark-theme .form-select {
+    background-color: #555 !important;
+    color: #fff !important;
+}
+.dark-theme .btn-primary {
+    background-color: #666 !important;
+    border-color: #666 !important;
+}
+.dark-theme pre {
+    background-color: #444 !important;
+    color: #fff !important;
+}
+.dark-theme .navbar {
+    background-color: #222 !important;
+    color: #fff !important;
+}
+
+.dark-theme .navbar .navbar-brand,
+.dark-theme .navbar .nav-link {
+    color: #fff !important;
+}
+/* Списки */
+.dark-theme .list-group-item {
+    background-color: #444 !important;
+    color: #fff !important;
+    border-color: #555 !important;
+}
+.dark-theme .list-group-item:hover {
+    background-color: #555 !important;
+}
+
+/* Badges */
+.dark-theme .badge-primary {
+    background-color: #333 !important;
+    color: #fff !important;
+}
+.badge-primary {
+    background-color: #007bff !important;
+    color: #fff !important;
+}
+
+/* Карточки */
+.dark-theme .card {
+    background-color: #444 !important;
+    color: #fff !important;
+    border: 1px solid #555 !important;
+}
+.dark-theme .card .card-title,
+.dark-theme .card .card-text {
+    color: #fff !important;
+}
+.dark-theme .card .btn-light {
+    background-color: #666 !important;
+    border-color: #666 !important;
+    color: #fff !important;
+}
+
+/* Модальное окно */
+.dark-theme .modal-content {
+    background-color: #222 !important;
+    color: #fff !important;
+}
+.dark-theme .modal-header,
+.dark-theme .modal-footer {
+    background-color: #333 !important;
+    border-color: #444 !important;
+}
+.dark-theme .modal-title {
+    color: #fff !important;
+}
+.dark-theme .modal-body {
+    background-color: #222 !important;
+    color: #ddd !important;
+}
+.dark-theme .btn-close {
+    filter: invert(1);
+}
+
+.dark-theme .pagination .page-link {
+    background-color: #444 !important;
+    color: #fff !important;
+    border-color: #666 !important;
+}
+.dark-theme .pagination .page-item.active .page-link {
+    background-color: #666 !important;
+    border-color: #666 !important;
+}
+.dark-theme .pagination .page-link:hover {
+    background-color: #555 !important;
+    color: #fff !important;
+}
+/* END Dark Mode */
+
+.card-body {
+    font-size: 0.85rem;
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.dark-theme footer, footer {
+    color: #495057 !important;
+}
+
+/* Стили для списка */
+.list-group .collapse {
+    display: none;
+    margin-left: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+#filterForm {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.dark-theme #filterForm {
+    background-color: #444;
+}
+
+.form-label {
+    font-weight: bold;
+}
